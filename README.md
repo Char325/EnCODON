@@ -81,7 +81,8 @@ The following are the results for the peak performing models.
 | GCN (Baseline) | GIN | 256 | 64 | 0.630 |
 | ESM-2 | GAT | 128 | 128 | 0.575 |
 
-**Please take a look at the Final Report.pdf for a more detailed overview.
+*Please take a look at the Final Report.pdf for a more detailed overview.
+
 ---
 
 ## 🚀 Getting Started
