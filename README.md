@@ -22,7 +22,7 @@ EnCODON is built on a modular, hierarchical **Graph Neural Network (GNN)** frame
 ### 1. Intra-Protein Encoding (The "Bottom View")
 This stage is responsible for generating a feature vector for each individual protein. We compare two fundamentally different methods of representation:
 
-* **The Geometric Baseline (HIGH-PPI):** Proteins are represented as graphs $g_b = (V_b, A_b, X_b)$ where nodes are residues and edges represent physical adjacency (residues within $10\text{\AA}$ of each other). A **Graph Convolutional Network (GCN)** aggregates seven physicochemical properties per residue to create a structural embedding.
+* **The Geometric Baseline (HIGH-PPI):** Proteins are represented as graphs $g_b = (V_b, A_b, X_b)$ where nodes are residues and edges represent physical adjacency (residues within 10 nodes of each other). A **Graph Convolutional Network (GCN)** aggregates seven physicochemical properties per residue to create a structural embedding.
     
     
 
@@ -80,6 +80,7 @@ The following are the results for the peak performing models.
 | GAT | GIN | 128 | 64 | 0.635 |
 | GCN (Baseline) | GIN | 256 | 64 | 0.630 |
 | ESM-2 | GAT | 128 | 128 | 0.575 |
+
 *Please take a look at the Final Report.pdf for a more detailed overview.
 ---
 
